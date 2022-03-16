@@ -56,6 +56,7 @@ async function get(req: NextApiRequest, res: NextApiResponse) {
     },
     JSCGetMessageReq,
   );
+
   if (validateResp.result === false) {
     throw new BadReqError(validateResp.errorMessage);
   }
