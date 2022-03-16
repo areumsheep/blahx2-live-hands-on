@@ -27,6 +27,9 @@ module.exports = {
   },
   rules: {
     'arrow-parens': [2, 'always'],
+    rules: {
+      'prettier/prettier': ['error', { endOfLine: 'auto' }],
+    },
     '@typescript-eslint/no-unused-vars': [
       1,
       {
